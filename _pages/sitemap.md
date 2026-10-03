@@ -9,6 +9,5 @@ author_profile: true
 - [Research](/publications/)
 - [Experience](/experience/)
 - [Teaching](/teaching/)
-- [Projects & Awards](/portfolio/)
 - [Curriculum Vitae](/cv/)
 - [Download CV (PDF)](/files/panayotis-philip-papavassilopoulos-cv.pdf)

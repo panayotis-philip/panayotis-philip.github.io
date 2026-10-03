@@ -9,7 +9,6 @@ built with Jekyll and the Academic Pages theme.
 - `_pages/publications.html` — publications and thesis
 - `_pages/experience.md` — research, industry, and entrepreneurship
 - `_pages/teaching.html` — teaching experience
-- `_pages/portfolio.html` — projects and awards
 - `_pages/cv.md` — web CV
 - `files/panayotis-philip-papavassilopoulos-cv.pdf` — downloadable CV
 - `assets/css/custom.css` — site-specific visual design

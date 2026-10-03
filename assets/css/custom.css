@@ -95,7 +95,7 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-of
 .btn--light-outline { background: transparent; border: 1px solid rgba(255,255,255,.7); color: #fff; }
 .btn--light-outline:hover { background: rgba(255,255,255,.12); color: #fff; }
 
-.interest-grid, .project-grid, .skills-grid { display: grid; gap: 1rem; }
+.interest-grid, .skills-grid { display: grid; gap: 1rem; }
 .interest-grid { grid-template-columns: repeat(3, 1fr); }
 .interest-card {
   background: var(--soft);
@@ -108,7 +108,7 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-of
 .interest-card strong { color: var(--cardinal-dark); font-size: .95rem; margin-bottom: .45rem; }
 .interest-card span { color: var(--muted); font-size: .87rem; line-height: 1.5; }
 
-.research-list article, .publication-card, .experience-list article, .project-card {
+.research-list article, .publication-card, .experience-list article {
   border: 1px solid var(--line);
   border-radius: 9px;
   margin-bottom: 1rem;
@@ -117,7 +117,7 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-of
 .research-list article { position: relative; }
 .research-list h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.06rem; line-height: 1.35; margin: .55rem 0 .25rem; }
 .research-list p { color: var(--muted); margin: 0; }
-.status-pill, .project-kicker {
+.status-pill {
   color: var(--cardinal);
   font-size: .72rem;
   font-weight: 750;
@@ -157,9 +157,6 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-of
 .publication-card .authors, .publication-note { color: var(--muted); }
 .publication-note { font-size: .86rem !important; font-style: italic; }
 
-.project-grid { grid-template-columns: repeat(2, 1fr); }
-.project-card { margin: 0; }
-.project-card h2 { font-family: Georgia, "Times New Roman", serif; margin: .45rem 0; }
 .award-list > div { border-bottom: 1px solid var(--line); padding: 1rem 0; }
 .award-list strong, .award-list span { display: block; }
 .award-list span { color: var(--muted); margin-top: .25rem; }
@@ -196,7 +193,6 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-of
 }
 
 @media (max-width: 640px) {
-  .project-grid { grid-template-columns: 1fr; }
   .experience-heading, .cv-download { align-items: flex-start; flex-direction: column; }
   .experience-heading > span { padding-top: 0; }
   .home-intro { border-radius: 8px; margin-left: -.35rem; margin-right: -.35rem; }

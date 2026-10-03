@@ -1,36 +1,31 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
+excerpt: "Research by Panayotis-Philip Papavassilopoulos in distributionally robust optimization and data-driven decision making."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p class="page-intro">My work develops optimization methods for decision-making under uncertainty, with applications in inventory, machine learning, and high-dimensional contextual problems.</p>
 
-{% include base_path %}
+<div class="publication-card">
+  <div class="publication-meta"><span>Manuscript</span><span>Submitted for journal publication</span></div>
+  <h2>A Distributionally Robust Optimization Approach to Quick Response Models under Demand Uncertainty</h2>
+  <p class="authors"><strong>Panayotis P. Papavassilopoulos</strong>, Grani A. Hanasusanto, and Yijie Wang</p>
+  <p>We formulate and solve a distributionally robust inventory model that accounts for ambiguity in demand distributions. The work derives tractable optimization reformulations and evaluates them through large-scale CVXPY experiments, demonstrating reductions in waste-to-consumption ratios across uncertainty scenarios.</p>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="publication-card">
+  <div class="publication-meta"><span>Conference paper</span><span>ICSP 2025 · Paris, France</span></div>
+  <h2>Data-Driven Distributionally Robust Contextual Optimization with Gaussian Mixture Models</h2>
+  <p class="authors">Y. C. Yoon, <strong>P. Papavassilopoulos</strong>, G. A. Hanasusanto, and Yijie Wang</p>
+  <p>We develop a contextual stochastic optimization framework using Gaussian mixture models and distributionally robust methods. The approach achieves strong sample complexity and out-of-sample performance across high-dimensional decision problems.</p>
+  <p class="publication-note">Accepted and presented at the XVII International Conference on Stochastic Programming, July 31, 2025.</p>
+</div>
 
-
-
+<div class="publication-card">
+  <div class="publication-meta"><span>Master's thesis</span><span>NTUA · 2023</span></div>
+  <h2>Assessment of Sustainable Development Goals with Integrated Assessment Models in the Energy Field</h2>
+  <p class="authors"><strong>Panayotis P. Papavassilopoulos</strong> · Written in Greek</p>
+  <p>I developed a method to estimate minimum objective-function ranges in multi-objective optimization, improving robustness and computational efficiency. I applied the method to determine investment policies for renewable energy sources.</p>
+</div>

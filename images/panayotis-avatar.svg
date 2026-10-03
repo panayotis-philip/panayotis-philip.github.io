@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title description">
+  <title id="title">Panayotis-Philip Papavassilopoulos</title>
+  <desc id="description">Monogram with the initials PP</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#710014"/>
+      <stop offset="1" stop-color="#990000"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#background)"/>
+  <circle cx="160" cy="160" r="139" fill="none" stroke="#ffcc00" stroke-width="3" opacity=".8"/>
+  <text x="160" y="187" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="104" letter-spacing="-8">PP</text>
+</svg>

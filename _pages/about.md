@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <div class="home-intro">
+  <img class="home-intro__usc-logo" src="/images/usc-trojans-logo.png" alt="USC monogram">
   <p class="eyebrow">PhD student · Industrial Engineering & Operations Research</p>
   <h2>Optimization for data-driven decisions under uncertainty.</h2>
   <p class="home-lead">I am a PhD student at the University of Southern California's Viterbi School of Engineering. My research focuses on mathematical optimization and its applications in machine learning, transportation, logistics, and economics.</p>

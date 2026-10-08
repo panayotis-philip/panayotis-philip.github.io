@@ -52,5 +52,5 @@ Education
 <div class="timeline-list">
   <div><span>2026–2029 (expected)</span><strong>PhD, Industrial Engineering / Operations Research</strong><p>University of Southern California, Viterbi School of Engineering</p></div>
   <div><span>2023–2026</span><strong>MS, Industrial & Systems Engineering / Operations Research</strong><p>University of Illinois Urbana-Champaign · GPA: 3.92/4.0</p></div>
-  <div><span>2018–2023</span><strong>Integrated BS & MS, Electrical and Computer Engineering</strong><p>National Technical University of Athens</p></div>
+  <div><span>2017–2023</span><strong>BS &amp; MS, Electrical and Computer Engineering</strong><p>National Technical University of Athens</p></div>
 </div>

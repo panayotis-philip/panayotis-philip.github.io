@@ -6,9 +6,17 @@ author_profile: true
 excerpt: "Research, teaching, entrepreneurship, and industry experience."
 ---
 
-<p class="page-intro">My experience spans academic research, undergraduate teaching, technology entrepreneurship, and data analysis.</p>
+<p class="page-intro">My experience spans academic research, university teaching, technology entrepreneurship, and data analysis.</p>
 
 <div class="experience-list">
+  <article>
+    <div class="experience-heading"><div><h2>Graduate Research Assistant</h2><p>University of Illinois Urbana-Champaign · Urbana-Champaign, IL</p></div></div>
+    <ul>
+      <li>Developed tractable two-stage stochastic and robust optimization models for data-driven decisions in manufacturing, supply chains, and transportation logistics.</li>
+      <li>Applied a two-stage stochastic optimization model to sustainable fashion production, demonstrating reductions in production costs and water consumption while satisfying environmental regulations.</li>
+      <li>Developed a robust truck–drone optimization model for post-disaster relief distribution, incorporating decision-dependent demand for food and medical supplies.</li>
+    </ul>
+  </article>
   <article>
     <div class="experience-heading"><div><h2>Teaching Assistant</h2><p>University of Illinois Urbana-Champaign · Urbana-Champaign, IL</p></div><span>Sep 2024 – May 2026</span></div>
     <p>Supported <em>Computing for Industrial and Systems Engineering</em> and <em>Business Side of Engineering</em> through exam development, office hours, and assessment.</p>
